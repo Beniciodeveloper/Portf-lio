@@ -1,0 +1,48 @@
+@media(max-width:1280px){
+    .header{
+        padding: 30px;
+    }
+
+    .home{
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .information{
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projects .container-projects{
+        padding: 0 30px;
+    }
+
+
+}
+
+@media(max-width: 425px){
+    .home .information h1{
+        font-size: 27px;
+
+    }
+
+    .home .information .p{
+        font-size: 14px;
+    }
+
+    .home .container-img img{
+        max-width: 320px;
+        max-height: 300px;
+    }
+
+    .projects{
+        padding: 30px;
+    }
+
+    .projects .tittle{
+        font-size: 35px;
+    }
+}
